@@ -6,3 +6,4 @@ s3_buckets:
   nt_database: "pawsey1132.atol.refdata.v1/ncbi_nucleotide_blast"
 containers: # Must use hash for pawsey/tiberius. Different containers exist with same tag.
   tiberius: "docker://quay.io/pawsey/tiberius@sha256:d444d05e4824c0b7349eb0b48c20bbfbde40e9810eda7471414d21779cfa8361"
+  ena_webin_cli: "docker://quay.io/biocontainers/ena-webin-cli:11.0.0--hdfd78af_0"
